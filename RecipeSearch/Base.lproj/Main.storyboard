@@ -116,7 +116,7 @@
                         <outlet property="noDataView" destination="SoX-04-DbF" id="7Dl-aM-khw"/>
                         <outlet property="searchTextField" destination="ieQ-rR-SAG" id="CL8-Iz-5C6"/>
                         <outlet property="tableView" destination="YWz-eA-2tE" id="XOi-cD-6Cv"/>
-                        <segue destination="2ot-Dd-H5A" kind="custom" identifier="Details" customClass="PresentFoldSegue" customModule="IBAnimatable" id="dpw-91-QRj"/>
+                        <segue destination="2ot-Dd-H5A" kind="modal" identifier="Details" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="dpw-91-QRj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -52,24 +52,22 @@
                     </constraints>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="W5f-Dy-MAK">
-                    <rect key="frame" x="20" y="281" width="335" height="105.5"/>
+                    <rect key="frame" x="20" y="283.5" width="335" height="100"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzV-Tc-OMp" customClass="Label" customModule="RecipeSearch" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzV-Tc-OMp">
+                            <rect key="frame" x="0.0" y="0.0" width="335" height="20"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="string" keyPath="customFont" value="regular"/>
-                            </userDefinedRuntimeAttributes>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qUc-cz-Bj8">
-                            <rect key="frame" x="0.0" y="30.5" width="335" height="75"/>
+                            <rect key="frame" x="0.0" y="30" width="335" height="70"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HHC-9F-eku" customClass="NVActivityIndicatorView" customModule="NVActivityIndicatorView">
-                                    <rect key="frame" x="130" y="0.0" width="75" height="75"/>
+                                    <rect key="frame" x="132.5" y="0.0" width="70" height="70"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
+                                        <constraint firstAttribute="height" constant="70" id="Jbl-rI-AIQ"/>
                                         <constraint firstAttribute="width" secondItem="HHC-9F-eku" secondAttribute="height" multiplier="1:1" id="dc7-kW-tDN"/>
                                     </constraints>
                                     <userDefinedRuntimeAttributes>
@@ -95,7 +93,6 @@
                 <constraint firstItem="W5f-Dy-MAK" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="02d-hi-u7s"/>
                 <constraint firstItem="EZ2-S5-0nM" firstAttribute="trailing" secondItem="W5f-Dy-MAK" secondAttribute="trailing" constant="20" id="1jh-fL-b6D"/>
                 <constraint firstItem="EZ2-S5-0nM" firstAttribute="trailing" secondItem="eis-lf-0Vx" secondAttribute="trailing" id="1tE-gn-fCa"/>
-                <constraint firstItem="HHC-9F-eku" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.2" id="MfZ-5g-qSU"/>
                 <constraint firstItem="EZ2-S5-0nM" firstAttribute="bottom" secondItem="eis-lf-0Vx" secondAttribute="bottom" constant="10" id="Qq1-l2-nLP"/>
                 <constraint firstItem="W5f-Dy-MAK" firstAttribute="leading" secondItem="EZ2-S5-0nM" secondAttribute="leading" constant="20" id="cWZ-Vg-mZm"/>
                 <constraint firstItem="eis-lf-0Vx" firstAttribute="leading" secondItem="EZ2-S5-0nM" secondAttribute="leading" id="l7o-Go-Y9e"/>
